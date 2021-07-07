@@ -1,0 +1,29 @@
+<h2>Search by Character</h2>
+
+<%= form_with url: "/search", method: :get do |form| %>
+  <%= form.label :query, "Search for Character:" %>
+  <%= form.text_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
+</br></br>
+
+<h2>Lists of Character</h2>
+
+<table class="table table-inverse">
+  <thead>
+    <tr>
+      <th>Character Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= @characters.each do |character| %>
+      <tr>
+        <td><%= character.name %></td>
+        <td><%= character.description %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= will_paginate @characters, :page_links => false %>

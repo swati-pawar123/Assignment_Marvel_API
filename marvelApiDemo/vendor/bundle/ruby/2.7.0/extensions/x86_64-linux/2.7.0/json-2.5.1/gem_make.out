@@ -1,0 +1,13 @@
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+/usr/share/rvm/rubies/ruby-2.7.0/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0 -r ./siteconf20210706-12478-1ldgkg2.rb extconf.rb
+creating Makefile
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" install

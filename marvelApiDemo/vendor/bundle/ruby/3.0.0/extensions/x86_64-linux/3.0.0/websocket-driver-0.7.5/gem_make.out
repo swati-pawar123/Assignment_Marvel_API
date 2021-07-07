@@ -1,0 +1,15 @@
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/share/rvm/rubies/ruby-3.0.1/bin/ruby -I /usr/share/rvm/rubies/ruby-3.0.1/lib/ruby/3.0.0 -r ./siteconf20210706-13902-63c17k.rb extconf.rb
+creating Makefile
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/swati/Desktop/Assignments/marvelApiDemo/marvelApiDemo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20210706-13902-iomigu
